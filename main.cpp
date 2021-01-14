@@ -4,7 +4,7 @@
 #include <limits>
 #include "contact.h"
 
-// salta un campo in uno stringstrea
+// salta un campo in uno stringstream
 void skip(std::stringstream & ss)
 {
   ss.ignore(std::numeric_limits<std::streamsize>::max(), ' ');
